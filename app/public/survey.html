@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 	<script src="https://code.jquery.com/jquery.js"></script>
-	
+
 	<title>No New Friends</title>
 
 </head>
@@ -24,15 +24,142 @@
 
 				<div class="col-md-12">
 
-					<h2>Tell Us a Little About Yourself</h2>
+					<h2>Tell Us a Little About You</h2>
 					<br>
 				
 					<form>
 					
 						<div class="form-group">
-							<label for="name">Name</label>
-							<input type="text" class="form-control" placeholder="John Smith">
+							<label for="name"><h3>Name</h3></label>
+							<input type="text" class="form-control" id="name" placeholder="John Smith">
 						</div>
+
+						<div class="form-group">
+							<label for="picture"><h3>Upload a picture of yourself</h3></label>
+							<input type="url" class="form-control" id="picture">
+						</div>
+
+						<div class="form-group">
+						    <label for="question1"><h4>1) You are an optimist who always looks on the brightside.</h4></label>
+						    <select class="form-control" id="question1">
+						      <option value="">Select an option</option>
+						      <option value="1">1 (Strongly Disagree)</option>
+						      <option value="2">2 (Disagree)</option>
+						      <option value="3">3 (Neutral)</option>
+						      <option value="4">4 (Agree)</option>
+						      <option value="5">5 (Strongly Agree)</option>
+						    </select>
+					 	</div>
+
+					 	<div class="form-group">
+						    <label for="question2"><h4>2) Things in life have a way of working themselves out.</h4></label>
+						    <select class="form-control" id="question2">
+						      <option value="">Select an option</option>
+						      <option value="1">1 (Strongly Disagree)</option>
+						      <option value="2">2 (Disagree)</option>
+						      <option value="3">3 (Neutral)</option>
+						      <option value="4">4 (Agree)</option>
+						      <option value="5">5 (Strongly Agree)</option>
+						    </select>
+					 	</div>
+
+					 	<div class="form-group">
+						    <label for="question3"><h4>3) A solo trip to the movie theatre is something you would do.</h4></label>
+						    <select class="form-control" id="question3">
+						      <option value="">Select an option</option>
+						      <option value="1">1 (Strongly Disagree)</option>
+						      <option value="2">2 (Disagree)</option>
+						      <option value="3">3 (Neutral)</option>
+						      <option value="4">4 (Agree)</option>
+						      <option value="5">5 (Strongly Agree)</option>
+						    </select>
+					 	</div>
+
+					 	<div class="form-group">
+						    <label for="question4"><h4>4) Sometimes you wish that you were part of something bigger.</h4></label>
+						    <select class="form-control" id="question4">
+						      <option value="">Select an option</option>
+						      <option value="1">1 (Strongly Disagree)</option>
+						      <option value="2">2 (Disagree)</option>
+						      <option value="3">3 (Neutral)</option>
+						      <option value="4">4 (Agree)</option>
+						      <option value="5">5 (Strongly Agree)</option>
+						    </select>
+					 	</div>
+
+					 	<div class="form-group">
+						    <label for="question5"><h4>5) Money can buy happiness.</h4></label>
+						    <select class="form-control" id="question5">
+						      <option value="">Select an option</option>
+						      <option value="1">1 (Strongly Disagree)</option>
+						      <option value="2">2 (Disagree)</option>
+						      <option value="3">3 (Neutral)</option>
+						      <option value="4">4 (Agree)</option>
+						      <option value="5">5 (Strongly Agree)</option>
+						    </select>
+					 	</div>
+
+					 	<div class="form-group">
+						    <label for="question6"><h4>6) Silences during conversations are awkward.</h4></label>
+						    <select class="form-control" id="question6">
+						      <option value="">Select an option</option>
+						      <option value="1">1 (Strongly Disagree)</option>
+						      <option value="2">2 (Disagree)</option>
+						      <option value="3">3 (Neutral)</option>
+						      <option value="4">4 (Agree)</option>
+						      <option value="5">5 (Strongly Agree)</option>
+						    </select>
+					 	</div>
+
+					 	<div class="form-group">
+						    <label for="question7"><h4>7) Competition motivates you to be better.</h4></label>
+						    <select class="form-control" id="question7">
+						      <option value="">Select an option</option>
+						      <option value="1">1 (Strongly Disagree)</option>
+						      <option value="2">2 (Disagree)</option>
+						      <option value="3">3 (Neutral)</option>
+						      <option value="4">4 (Agree)</option>
+						      <option value="5">5 (Strongly Agree)</option>
+						    </select>
+					 	</div>
+
+					 	<div class="form-group">
+						    <label for="question8"><h4>8) Each generation has its own style of music. Neither is better or worse.</h4></label>
+						    <select class="form-control" id="question8">
+						      <option value="">Select an option</option>
+						      <option value="1">1 (Strongly Disagree)</option>
+						      <option value="2">2 (Disagree)</option>
+						      <option value="3">3 (Neutral)</option>
+						      <option value="4">4 (Agree)</option>
+						      <option value="5">5 (Strongly Agree)</option>
+						    </select>
+					 	</div>
+
+					 	<div class="form-group">
+						    <label for="question9"><h4>9) The best way to travel is to have every minute planned out.</h4></label>
+						    <select class="form-control" id="question9">
+						      <option value="">Select an option</option>
+						      <option value="1">1 (Strongly Disagree)</option>
+						      <option value="2">2 (Disagree)</option>
+						      <option value="3">3 (Neutral)</option>
+						      <option value="4">4 (Agree)</option>
+						      <option value="5">5 (Strongly Agree)</option>
+						    </select>
+					 	</div>
+
+					 	<div class="form-group">
+						    <label for="question10"><h4>10) Satire is the best form of humor.</h4></label>
+						    <select class="form-control" id="question10">
+						      <option value="">Select an option</option>
+						      <option value="1">1 (Strongly Disagree)</option>
+						      <option value="2">2 (Disagree)</option>
+						      <option value="3">3 (Neutral)</option>
+						      <option value="4">4 (Agree)</option>
+						      <option value="5">5 (Strongly Agree)</option>
+						    </select>
+					 	</div>
+
+					 	<button type="submit" class="btn btn-warning" id="submitButton">Submit</button>
 
 					</form>
 
@@ -43,6 +170,34 @@
 		</div>
 
 	</div>
+
+	<script>
+		
+		$("#submitButton").click(function (event) {
+			event.preventDefault();
+
+			var newFriend = {
+
+				name: $("#name").val().trim(),
+				picture: $("#picture").val(),
+				friendInfo: [
+					$("#question1").val(),
+					$("#question2").val(),
+					$("#question3").val(),
+					$("#question4").val(),
+					$("#question5").val(),
+					$("#question6").val(),
+					$("#question7").val(),
+					$("#question8").val(),
+					$("#question9").val(),
+					$("#question10").val()
+				]
+			};
+			console.log(newFriend);
+
+		});
+
+	</script>
 
 </body>
 </html>

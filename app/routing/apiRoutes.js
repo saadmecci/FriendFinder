@@ -4,15 +4,15 @@ var path = require("path");
 
 module.exports = function (app) {
 
-	app.get("/api/friends", function (req, results) {
-		results.JSON(friends);
+	app.get("/api/friends", function (request, response) {
+		response.JSON(friends);
 	});
 
-	app.post("/api/friends", function (req, results) {
+	app.post("/api/friends", function (request, response) {
 		
 		var newFriend = require.body;
 
 		friends.push(newFriend);
-		results.JSON(newFriend);
+		response.JSON(newFriend);
 	});
 }

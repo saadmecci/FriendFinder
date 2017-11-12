@@ -10,6 +10,8 @@
 
 	<script src="https://code.jquery.com/jquery.js"></script>
 
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
 	<title>No New Friends</title>
 
 </head>
@@ -180,14 +182,14 @@
 		        <div class="modal-header">
 
 		        	<button type="button" class="close" data-dismiss="modal">&times;</button>
-		        	<h2 class="modal-title"><strong>Best Match</strong></h2>
+		        	<h2 class="modal-title"><strong>Your New Best Friend</strong></h2>
 
 		        </div>
 
 		        <div class="modal-body">
 
-		        	<h2 id="match-name"></h2>
-		        	<img id="match-img" src="" alt="">
+		        	<h2 id="bestFriendName"></h2>
+		        	<img id="bestFriendPicture" src="" alt="">
 
 		        </div>
 
@@ -206,10 +208,10 @@
 	<script>
 		
 		$("#submitButton").click(function (event) {
+			//prevent browser from refreshing the page
 			event.preventDefault();
-
+			//store the user's information in an object
 			var newFriendData = {
-
 				name: $("#name").val(),
 				picture: $("#picture").val(),
 				friendInfo: [
@@ -225,16 +227,15 @@
 					$("#question10").val()
 				]
 			};
-			//console.log(newFriendData);
-
 			var currentURL = window.location.origin;
-
+			//ajax post to the friends api
 			$.post(currentURL + "/api/friends", newFriendData, function (data) {
-
-				console.log(data);
-
+				//input modal with the best friend name and picture
+				$("#bestFriendName").text(data.name);
+          		$("#bestFriendPicture").attr("src", data.picture);
+          		//activate modal pop-up
+	        	$("#results-modal").modal("toggle");
 			});
-
 		});
 
 	</script>

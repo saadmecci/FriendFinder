@@ -5,7 +5,7 @@ var bodyParser = require("body-parser");
 //create express server
 var app = express();
 //server will listen on port 3000
-var port = process.env.PORT || 3000;
+var PORT = process.env.PORT || 3000;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());

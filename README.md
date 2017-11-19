@@ -8,7 +8,7 @@ The application uses jQuery AJAX calls for the post requests to the server.
 
 The appplication utilizes Bootstrap for the layout of the page.
 
-The application is hosted on [Heroku](https://friend-finder1994.herokuapp.com) and the following image is what users see when they first visit the site.
+The [application is hosted on Heroku](https://friend-finder1994.herokuapp.com) and the following image is what users see when they first visit the site.
 
 <img src="assets/images/mainview.png" alt="websiteScreenCapture" height="480px" width="800px">
 

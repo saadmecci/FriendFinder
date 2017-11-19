@@ -2,7 +2,7 @@
 
 A Fullstack web application where users can answers questions to find their most compatible friend.
 
-<img src="assets/images/mainview.png" alt="websiteScreenCapture" height="300px" width="300px">
+<img src="assets/images/mainview.png" alt="websiteScreenCapture" height="350px" width="700px">
 
 Once user submits the survey, application will run through all the stored friends and display the "best friend's" name with picture.
 

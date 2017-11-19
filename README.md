@@ -20,6 +20,6 @@ Once the user clicks on the **Find My New Friend** button, they will be routed t
 
 Once user submits the survey, application will run through all the stored friends and display the **best friend's** name with their picture.
 
-The following image shows the fake friend profile that I made for this demonstration:
+The following image shows the **Fake Friend** profile that I made for this demonstration:
 
 <img src="assets/images/surveyResult.png" alt="websiteScreenCapture" height="480px" width="800px">

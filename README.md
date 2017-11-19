@@ -14,7 +14,7 @@ The [application is hosted on Heroku](https://friend-finder1994.herokuapp.com) a
 
 Once the user clicks on the **Find My New Friend** button, they will be routed to the following HTML page:
 
-<img src="assets/images/friendSurvey1.png" alt="websiteScreenCapture" height="480px" width="800px">
+<img src="assets/images/friendSurvey1.png" alt="websiteScreenCapture" height="500px" width="800px">
 
 <img src="assets/images/friendSurvey2.png" alt="websiteScreenCapture" height="380px" width="800px">
 

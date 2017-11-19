@@ -10,7 +10,7 @@ Once the user clicks on the **Find My New Friend** button, they will be routed t
 
 <img src="assets/images/friendSurvey1.png" alt="websiteScreenCapture" height="480px" width="800px">
 
-<img src="assets/images/friendSurvey2.png" alt="websiteScreenCapture" height="480px" width="800px">
+<img src="assets/images/friendSurvey2.png" alt="websiteScreenCapture" height="450px" width="800px">
 
 Once user submits the survey, application will run through all the stored friends and display the "best friend's" name with picture.
 

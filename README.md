@@ -2,7 +2,15 @@
 
 A Fullstack web application where users can answers questions to find their most compatible friend.
 
+The application is hosted on Heroku and the following image is what users see when they first visit the site.
+
 <img src="assets/images/mainview.png" alt="websiteScreenCapture" height="450px" width="800px">
+
+Once the user clicks on the **Find My New Friend** button, they will be routed to the following HTML page:
+
+<img src="assets/images/friendSurvey1.png" alt="websiteScreenCapture" height="450px" width="800px">
+
+<img src="assets/images/friendSurvey2.png" alt="websiteScreenCapture" height="450px" width="800px">
 
 Once user submits the survey, application will run through all the stored friends and display the "best friend's" name with picture.
 

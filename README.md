@@ -22,4 +22,4 @@ Once user submits the survey, application will run through all the stored friend
 
 The following image shows the fake friend profile that I made for this demonstration:
 
-<img src="assets/images/surveyResult.png" alt="websiteScreenCapture" height="450px" width="800px">
+<img src="assets/images/surveyResult.png" alt="websiteScreenCapture" height="480px" width="800px">
